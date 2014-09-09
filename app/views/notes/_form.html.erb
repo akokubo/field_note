@@ -36,8 +36,16 @@
     <%= f.text_area :body %>
   </div>
   <div class="field">
+    <%= f.label :image_file_name %><br>
+    <%= f.text_field :image_file_name %>
+  </div>
+  <div class="field">
     <%= f.label :observed_at %><br>
     <%= f.datetime_select :observed_at %>
+  </div>
+  <div class="field">
+    <%= f.label :weather %><br>
+    <%= f.text_field :weather %>
   </div>
   <div class="field">
     <%= f.label :event_name %><br>
